@@ -56,9 +56,9 @@ void Generate_test( int N ){
 
 int main()
 {
-
+    ///number of tasks/ number of heaps
     cin >> N >> M;
-
+    
     Generate_test( N );
     return 0;
 }
