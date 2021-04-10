@@ -6,8 +6,8 @@ using namespace std;
 const int NMAX = 500000;
 const int INF = 2000000001;
 
-ifstream fin("pairing.in");
-ofstream fout("pairing.out");
+ifstream fin("heap.in");
+ofstream fout("heap.out");
 
 struct node{
     int key;
