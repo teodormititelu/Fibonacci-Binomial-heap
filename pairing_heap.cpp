@@ -111,7 +111,7 @@ int main()
     int task, h, x, h1, h2;
     for( int i = 1; i <= N; ++i ){
 
-        fin >> task;//cout << i << '\n';
+        fin >> task;
 
         if( task == 1 ){
             fin >> h >> x;
@@ -119,7 +119,7 @@ int main()
             Heap[h].push( x );
         }
         if( task == 2 ){
-            fin >> h; //cout << Heap[h].top();
+            fin >> h;
 
             fout << h << ": " << Heap[h].top() << '\n';
             Heap[h].pop();
